@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "description": "Routes for aether.place",
+  "triggers": {},
+  "routes": [
+    {
+      "pattern": "^/.*$",
+      "delivery": [
+        "static"
+      ],
+      "type": "static"
+    }
+  ]
+}
